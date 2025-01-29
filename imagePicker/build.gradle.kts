@@ -38,8 +38,8 @@ publishing {
     publications {
         create<MavenPublication>("release") {
             groupId = "com.github.indogusmas"
-            artifactId = "imagePicker"
-            version = "0.0.3"
+            artifactId = "image-picker"
+            version = "0.0.4"
 
             afterEvaluate {
                 from(components["release"])
